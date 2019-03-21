@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Registration</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="css/global.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="js/autofocus.js"> </script>
+</head>
+
+<body>
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+
+					<a href="homepage.html"><img src="images/logo1.png"></img></a>
+					<form class="form-container">
+						<h1>Create Account</h1>
+						<br>
+						<div class="row">
+							<div class="col-lg-6">
+								<label>Your full name</label>
+								<input type="text" id="fname" class="form-control" required="true">
+							</div>
+
+							<div class="col-lg-6">
+								<label>Username</label>
+								<input type="text" name="lname" class="form-control" required="true">
+							</div>		
+						</div>
+							<br>
+						<label>Email</label>
+						<input type="email" class="form-control" id="email" required pattern="[^]+@[^]+[.][a-z]{2,63}$">
+							<br>
+
+						<div class="row">
+							<div class="col-lg-6">
+								<label>Password</label>
+								<input type="password" name="fname" class="form-control" placeholder="At least six characters">
+							</div>
+
+							<div class="col-lg-6">
+								<label>Re-enter password:</label>
+								<input type="password" name="lname" class="form-control" required="true">
+							</div>		
+						</div>
+						<br>
+						<select class="form-control">
+							<option>Choose Gender</option>
+							<option>Male</option>
+							<option>Female</option>
+							<option>Other</option>
+						</select>
+						<br>
+						<input class="btn btn-success btn-block btn-lg" type="submit" value="Continue">
+						<h5 class= "divider-text">Already have an account?<a href="login.html" style="color:#4B0082"> Click here</a>
+					</form>					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
